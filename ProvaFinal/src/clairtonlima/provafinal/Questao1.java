@@ -5,11 +5,11 @@ public class Questao1 {
 
 	public static void main(String[] a) {
         double valorEmprestimo = 30000.00; 
-        double taxaJuros = 1.5 / 100; 
+        double jurosMensal = 1.5 / 100; 
         int meses = 12; 
 
         double amortizacaoValor = valorEmprestimo / meses;
-        double saldoDevedor = valorEmprestimo;
+        double saldoDevedorAtual = valorEmprestimo;
 
         System.out.println("Valor fixo da amortização: R$ " + String.format("%.2f", amortizacaoValor));
 
@@ -18,9 +18,9 @@ public class Questao1 {
         double totalAmortizado = 0;
 
         for (int i = 1; i <= meses; i++) {
-            double juros = saldoDevedor * taxaJuros;
+            double juros = saldoDevedorAtual * jurosMensal;
             double prestacao = juros + amortizacaoValor;
-            saldoDevedor = saldoDevedor -  amortizacaoValor;
+            saldoDevedorAtual = saldoDevedorAtual -  amortizacaoValor;
 
             totalPago =  totalPago + prestacao;
             totalDeJuros =totalDeJuros + juros;
@@ -28,7 +28,7 @@ public class Questao1 {
 
             System.out.println("Parcela " + i + " | Juros: R$ " + String.format("%.2f", juros) +
                     " | Prestação: R$ " + String.format("%.2f", prestacao) +
-                    " | Saldo devedor: R$ " + String.format("%.2f", saldoDevedor));
+                    " | Saldo devedor: R$ " + String.format("%.2f", saldoDevedorAtual));
         }
 
         System.out.println("Total: Prestação R$ " + String.format("%.2f", totalPago) +
