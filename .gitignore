@@ -1,0 +1,40 @@
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos relacionados ao Java
+*.class
+*.jar
+*.war
+*.ear
+*.jmod
+*.jlink
+*.jimage
+*.javadoc
+/target/
+*.log
+*.tmp
+*.tmp.*
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Arquivos de configuração do Eclipse
+.settings/
+*.launch
+*.classpath
+*.project
+*.prefs
+
+# Arquivos de configuração do IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Outros arquivos gerados pelo build
+build/
+bin/
+logs/
