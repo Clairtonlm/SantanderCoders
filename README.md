@@ -61,7 +61,7 @@ Neste módulo, espera-se que os alunos adquiram uma base sólida de lógica de p
 - Pode-se optar por apresentar JOptionPane para as entradas e saídas, porém como complemento da classe Scanner e das funções print() / println() / printf(), que são conteúdos obrigatórios.
 
 ## Tabela de Plano de Aula
-
+no
 ### Aula 1
 
 - Paradigmas.
