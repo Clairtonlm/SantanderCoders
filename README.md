@@ -7,7 +7,7 @@ Inicio das aulas 08/01/2024
 
 O repositório armazena os projetos e exercícios desenvolvidos durante o programa, cobrindo os tópicos de desenvolvimento web, programação e outras disciplinas do curso.
 
-# Objetivos de Aprendizagem
+# Objetivos de Aprendizagem do curso
 
 Neste módulo, espera-se que os alunos adquiram uma base sólida de lógica de programação, capacitando-os a resolver problemas e construir algoritmos na linguagem Java. Além da parte técnica, deseja-se desenvolver aspectos comportamentais dos alunos, como:
 
