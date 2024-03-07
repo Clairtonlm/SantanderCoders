@@ -1,4 +1,4 @@
-# CodingTank - Santander Coders 2023/2
+# CodingTank - Santander Coders 2023
 
 Este repositório é dedicado ao curso Coding Tank | JV - Santander Coders 2023 | 2º Semestre, realizado pela Ada.
 Inicio das aulas 08/01/2024
